@@ -1,0 +1,24 @@
+# 민감 정보 (절대 업로드 금지!)
+kis_devlp.yaml
+*.yaml
+config/
+**/KIS/
+
+# 토큰 캐시
+*.dat
+KIS*
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 거래 로그를 올리고 싶지 않다면 아래 주석 해제
+# trade_log.csv
+# backtest_log.csv
